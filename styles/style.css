@@ -3,4 +3,42 @@ body {
     background: url(/images/valhalla-background.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+body .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inner-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+footer {
+    text-align: center;
+}
+
+.recipe {
+    background: #333333bd;
+    border-radius: 6px;
+}
+
+.recipe .content {
+    opacity: 1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    background: black;
+    opacity: 1;
+    border-radius: 32px;
+    padding: 5px 0;
 }
