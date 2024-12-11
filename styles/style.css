@@ -21,6 +21,7 @@ body .container {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin: 0 50px;
 }
 
 .inner-cont {
@@ -40,6 +41,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .recipe .content {
